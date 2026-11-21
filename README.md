@@ -49,13 +49,3 @@ The LCD displays `Heavy Traffic` and `Extra Lane Open` when both sensor readings
 ## Program structure
 
 `readButtons()` records button presses. `updateTrafficLevel()` reads the photoresistors, updates the LCD, and moves the servos when the traffic state changes. `showSignals()` controls the six signal LEDs. `holdPhase()` checks the inputs while each timed signal state is active.
-
-## Design notes
-
-Photoresistors measure light, **not actual vehicle counts**. In this model, the light readings represent simulated traffic conditions. The servos demonstrate a lane-opening concept, not a road-safe physical barrier. This educational prototype is not suitable for controlling real road traffic.
-
-The included `.brd` file is an **Autodesk EAGLE board-design file**, not a Tinkercad simulation file. The screenshot documents the original breadboard-style circuit. The cleaned-up sketch preserves the original pin mapping but contains code refinements; the updated sketch has not been verified against the original simulator wiring.
-
-## Credits
-
-**Aqsa Shoaib** — original classroom project, January 5, 2025. This repository includes a reorganized version of the original sketch.
