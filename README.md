@@ -2,10 +2,6 @@
 
 An Arduino-based traffic signal controller for a four-way intersection, developed as a classroom engineering project. The system coordinates two sets of traffic lights, accepts pedestrian button requests, estimates simulated congestion using light sensors, and uses servo motors to represent opening an additional lane. A 16×2 LCD shows the current traffic condition.
 
-## Circuit
-
-![Arduino traffic controller circuit](images/circuit-diagram.png)
-
 ## Features
 
 - Alternating red, yellow, and green signals for two traffic directions
